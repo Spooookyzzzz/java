@@ -74,8 +74,11 @@ iframe {
 .f-list {
     display: flex;
     -webkit-display: flex;
+    -moz-display: flex;
+    
     flex-direction: row;
     -webkit-flex-direction: row;
+    -moz-flex-direction: row;
     justify-content: space-around;
     height: 100px;
 }
